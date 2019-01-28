@@ -39,10 +39,10 @@ if( !class_exists("wpheadless") ){
 			// Settings
 			$this->settings = array(
 				"name"				=> "WP Headless",
-				"version" 		=> $this->version,
+				"version" 			=> $this->version,
 				"link"				=> "https://github.com/DrewDahlman/wp-headless",
 				"files"				=> array(),
-				"env"					=> $env,
+				"env"				=> $env,
 				"tmp_dir"			=> get_template_directory() . "/data" . "/",
 				"content"			=> get_field("content", "options"),
 				"dest"				=> get_field("destination", "options") == "" ? "wp-headless-data/" : get_field("destination", "options")
